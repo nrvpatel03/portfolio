@@ -1,0 +1,136 @@
+
+.navbar{
+    background-color: rgb(162, 57, 202, 1);
+    transition: 1s;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+#logo{
+    margin: 0 auto;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+#menuBtn{
+    margin-left: 25px;
+    color: white;
+    cursor: pointer;
+}
+#logo:hover, #menuBtn:hover {
+    color: #0E0B16;
+}
+a {
+    text-decoration: none;
+}
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 5; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color:rgb(162, 57, 202, .9);
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    color: #0E0B16;
+    text-decoration: none;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+/* parralax */
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+.parallax{
+    background-attachment: fixed;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    
+}
+#p1{
+    background-image: url("../img/bg/backgroundGray.jpg");
+    background-color: rgb(205, 205, 205);
+    height: 700px;
+    width: 100%;
+    background-size: contain;
+}
+/* content */
+#greeting{
+    padding-left: 15px;
+    padding-right: 15px;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    top: 30%;
+    bottom: 50%;
+    right: 40%;
+    left: 20%;
+    background-color: rgb(255,255,255,.7);
+    color: black;
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 1.2;
+}
+.blueTxt{
+    color: rgb(71, 23, 246);
+}
+#hi{
+    font-size: 5em;
+}
+@media only screen and (max-width: 1100px){
+    #greeting{
+        left: 5%;
+    }
+}
+@media only screen and (max-width: 570px){
+    .sidenav a {
+        font-size: 20px;
+    }
+    #greeting{
+        top: 25%;
+        margin-left: auto;
+        margin-right: auto;
+        right: 0;
+        left: 0;
+        font-size: 1.45em;
+    }
+    #hi{
+        font-size: 4.5em;
+    }
+}
+@media only screen and (max-width: 350px){
+    .sidenav a {
+        font-size: 18px;
+    }
+    #greeting{
+        top: 15%;
+        font-size: 1.25em;
+    }
+    #hi {
+        font-size: 3.5em;
+    }
+}
