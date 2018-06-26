@@ -167,6 +167,18 @@ a {
     .parallax{
         background-attachment: scroll;
     }
+    #p1{
+        background-image: url("../img/bg/mobile/backgroundGray-mobile.jpg");
+    }
+    #p2{
+        background-image: url("../img/bg/mobile/code-coding-computer-34676.jpg");
+    }
+    #p3{
+        background-image: url("../img/bg/mobile/astronomy-astrophotography-black-207529-mobile.jpg");
+    }
+    #p4{
+        background-image: url("../img/bg/mobile/beach-salt-water-sand-17727-mobile.jpg");
+    }
 }
 @media only screen and (max-width: 570px){
     .sidenav a {
