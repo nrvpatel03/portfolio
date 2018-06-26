@@ -163,6 +163,14 @@ a {
         left: 5%;
     }
 }
+@media only screen and (max-width: 749px){
+    .parallax{
+        background-attachment: scroll;
+    }
+    #p1,#p2,#p3,#p4{
+        background-size: 100%, 100%;
+    }
+}
 @media only screen and (max-width: 570px){
     .sidenav a {
         font-size: 20px;
